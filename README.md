@@ -10,7 +10,7 @@
 O **APP Carbon Zero** tem como objetivo ajudar na mensuração e redução das emissões de CO₂ de eventos. A seguir estão as etapas de desenvolvimento e funcionalidades do aplicativo:
 
 1. **Prototipagem Interativa**  
-   Ferramentas: Figma, Adobe XD, etc.
+   Ferramentas: Figma.
 
 2. **Planejamento do Desenvolvimento**  
    Escolha da stack tecnológica para o desenvolvimento do app.
