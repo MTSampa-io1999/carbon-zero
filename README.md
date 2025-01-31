@@ -1,5 +1,9 @@
 
 # APP Carbon Zero
+<img src="https://github.com/user-attachments/assets/5c531d70-31d4-47a6-ab5f-ed4c0184d44d" width="200"/> 
+
+## Bem Vindos!
+
 
 ## Resumo Geral
 
@@ -126,6 +130,70 @@ Botões:
 - "Aplicar Ajustes"  
 - "Visualizar Impacto"  
 - "Salvar Cenário"
-- 
+  
+  ## Diagrama de Navegação das Telas
+
+| Tela                     | Ação/Evento                            | Tela de Destino                 |
+|--------------------------|----------------------------------------|---------------------------------|
+| Cadastro                 | Clique em "Cadastrar"                  | Tela de Login                   |
+| Cadastro                 | Clique em "Já possui conta? Faça login"| Tela de Login                   |
+| Login                    | Clique em "Entrar"                     | Tela de Informações do Evento   |
+| Login                    | Clique em "Esqueceu a senha?"          | Tela de Recuperação de Senha    |
+| Login                    | Clique em "Cadastrar"                  | Tela de Cadastro                |
+| Informações do Evento    | Clique em "Próximo"                    | Tela de Coleta de Dados         |
+| Coleta de Dados          | Clique em "Próximo"                    | Tela de Processamento de Dados  |
+| Processamento de Dados   | Quando o processamento terminar        | Tela de Dashboard de Resultados |
+| Dashboard de Resultados  | Clique em "Voltar"                     | Tela de Coleta de Dados         |
+| Dashboard de Resultados  | Clique em "Próximos Passos"            | Tela de Feedback e Ajustes      |
+| Feedback e Ajustes       | Clique em "Aplicar Ajustes"            | Tela de Dashboard de Resultados |
+| Feedback e Ajustes       | Clique em "Salvar Cenário"             | Tela de Dashboard de Resultados |
+| Feedback e Ajustes       | Clique em "Visualizar Impacto"         | Tela de Dashboard de Resultados |
+
+----
+
+## Tecnologias Utilizadas
+
+- **Frontend**: React Native, React Navigation
+- **Backend**: Node.js, Express
+- **Banco de Dados**: MongoDB (se aplicável)
+- **API**: Axios ou Fetch para integração
+- **Gráficos**: Chart.js ou outra biblioteca gráfica
+
+---
+
+## Como Rodar o Projeto
+
+1. Clone o repositório:  
+   `git clone <URL do repositório>`
+
+2. Instale as dependências:  
+   `npm install`
+
+3. Execute o app:  
+   Para desenvolvimento frontend:  
+   `npm start`
+
+   Para o servidor backend:  
+   `npm run server`
+
+---
+
+## Contribuições
+
+Se você deseja contribuir com o projeto, siga os passos abaixo:  
+1. Faça um fork deste repositório.
+2. Crie uma branch para sua modificação:  
+   `git checkout -b minha-modificacao`
+3. Faça o commit das suas alterações:  
+   `git commit -m "Descrição das mudanças"`
+4. Envie para o repositório remoto:  
+   `git push origin minha-modificacao`
+5. Abra um pull request.
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes
 
 
