@@ -155,7 +155,7 @@ Botões:
 
 - **Frontend**: React Native, React Navigation
 - **Backend**: Node.js, Express
-- **Banco de Dados**: MongoDB (se aplicável)
+- **Banco de Dados**: MongoDB (se aplicável)// AsyncStorage, Expo
 - **API**: Axios ou Fetch para integração
 - **Gráficos**: Chart.js ou outra biblioteca gráfica
 
